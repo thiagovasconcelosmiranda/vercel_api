@@ -8,7 +8,6 @@ export const getBooks = async (req: any, res: any) => {
 
 export const addBooks = async (req: any, res: any) => {
     const { name, description } = req.body;
-    res.json(description)
 
     const book = await prisma.books.create({
         data: {
