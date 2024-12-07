@@ -5,6 +5,5 @@ export const getBooks = async (req: any, res: any) => {
 }
 
 export const addBooks = async (req: any, res: any) => {
-  
     res.json({});
 }
